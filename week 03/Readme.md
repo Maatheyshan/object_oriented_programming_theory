@@ -15,11 +15,11 @@ Different types of collections in Java:
      - 
             
     b. LinkedList
-4. Set 
-    a. HashSet 
+4. Set - Set of Objects - no duplicates - no insertion order - not accessible by index
+    a. HashSet - unsorted
     b. LinkedHashSet 
-    c. TreeSet
-5. Map 
+    c. TreeSet - sorted
+5. Map - Key Value pair - key has to unique however value can be duplicate
     a. HashMap 
     b. LinkedHashMap 
     c. TreeMap 

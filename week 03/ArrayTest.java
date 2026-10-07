@@ -1,9 +1,10 @@
 import java.util.Scanner;
-import java.util.Arrays;
+
 
 public class ArrayTest {
 
     public static final int SIZE = 10;
+
 
     public static void main(String[] args) {
         // What if I want to store 10 numbers
@@ -26,13 +27,9 @@ public class ArrayTest {
             total += num;
         }
 
-        System.out.println("Number in the array: " + Arrays.toString(numbers));
+        System.out.println("Number in the array: " + numbers);
         System.out.println("The sum of the numbers is: " + total);
 
-        // How to sort an array in Java?
-        Arrays.sort(numbers);
-        System.out.println("The sorted array is: " + Arrays.toString(numbers));
-
-        sc.close();
     }
+
 }
